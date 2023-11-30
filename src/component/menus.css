@@ -1,0 +1,28 @@
+.react-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+    margin-bottom: 40px;
+    
+}
+
+.logoflix {
+    width: 10%;
+
+
+}
+
+.nave {
+    display: flex;
+    justify-content: center;
+
+
+}
+.menu {
+    padding-left: 20px;
+    color: aliceblue;
+    font-weight: bold;
+    margin-right: 30px;
+}
