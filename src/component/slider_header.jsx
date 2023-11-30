@@ -1,6 +1,8 @@
 import React from 'react';
 import './slider_header.css';
 
+
+
 const slider_header = () => {
 
   const colors = ["#92c952", "#771796", "#24f355", "#d32776", "#f66b97"];
@@ -14,6 +16,8 @@ const slider_header = () => {
   const texto = ["Spider-Man: Across The Spider-verse","Transformers: The Last Knight","Star Wars VII: The Force Awakens"];
   const [value, setValue] = React.useState(0);
 
+  
+
   React.useEffect(() => {
     const interval = setInterval(() => {
       setValue((v) => {
@@ -23,10 +27,16 @@ const slider_header = () => {
     return () => clearInterval(interval);
   }, []);
 
+  const newPage = () => {
+
+
+    return alert('PELICULA: '+texto[value]);
+  };
+
   return (
-    <div className="app" style={{ backgroundcolor: colors[value] }}>
+    <div className="app" >
       <img src={images[value]} alt="img" style={{ width: "1180px", border: "3px solid", borderRadius: "20px" }} />
-      <h3 className="textos"><a>{texto[value]}</a> </h3>
+      <h3 className="textos"><button onClick={newPage}>{texto[value]}</button> </h3>
     </div>
   );
 }
