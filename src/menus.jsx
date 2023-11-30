@@ -2,6 +2,8 @@ import React from 'react'
 import './menus.css';
 
 const menus = () => {
+
+ 
   return (
     <div className="react-menu">
       <img className='logoflix' src="./reacflix.png"/>
@@ -10,8 +12,10 @@ const menus = () => {
         <a className='menu'>PELICULAS</a>
         <a className='menu'>SERIES</a>
       </nav>
+
     </div>
 
+  
 
   );
 }

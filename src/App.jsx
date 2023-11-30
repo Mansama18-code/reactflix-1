@@ -43,10 +43,8 @@ function App() {
   const imgs = 'https://image.tmdb.org/t/p/w500';
 
   const moviesToShow = movie.slice(3, moviesxpagina);
-  
   const moviesToShow1 = movie.slice(7, moviesxpagina);
   const moviesToShow2 = movie.slice(12, moviesxpagina);
-  
   const moviesToShow3 = movie.slice(0, moviesxpagina);
  
   return (
@@ -56,7 +54,7 @@ function App() {
     <div className="App">
       
 
-
+      
 
       <h3>Películas Populares</h3>
       
