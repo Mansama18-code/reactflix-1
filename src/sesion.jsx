@@ -3,6 +3,7 @@ import App from './App.jsx';
 import Menus from './component/menus.jsx';
 import Slider_header from './component/slider_header.jsx';
 import Nombre from './component/Nombre.jsx';
+
 const sesion = () => {
   return (
     <div>
@@ -13,7 +14,7 @@ const sesion = () => {
 
 
     </div>
-  )
-}
+  );
+};
 
-export default sesion
+export default sesion;
